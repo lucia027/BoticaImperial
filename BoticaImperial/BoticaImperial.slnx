@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BoticaImperial/BoticaImperial.csproj" />
+  <Project Path="BoticaImperialTest/BoticaImperialTest.csproj" />
+</Solution>
