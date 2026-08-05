@@ -22,7 +22,7 @@ public class CasoMedicoValidator : IValidator<CasoMedico> {
         if(!entity.FechaInicio.IsValidFechaInicio()) errores.Add("ERROR - Fecha de inicio anterior a la de hoy invalida.");
         if(!entity.Gravedad.IsValidGravedad()) errores.Add("ERROR - Tipo de gravedad invalido.");
         if(!entity.CausaSospecha.IsValidCausaSospecha()) errores.Add("ERROR - Tipo de causa de sospecha invalido.");
-        if(entity.CausaSospecha == CausaSospecha.Veneno && !entity.SustanciasSospechosas.IsValidSustanciasSospechosas()) errores.Add("ERROR - No hay venenos asociados al caso medico invalido..");
+        if(entity.CausaSospecha == CausaSospecha.Veneno && !entity.SustanciasSospechosas.IsValidSustanciasSospechosas()) errores.Add("ERROR - No hay venenos asociados al caso medico invalido.");
         if(!entity.Estado.IsValidEstado()) errores.Add("ERROR - Tipo de estado invalido.");
 
 

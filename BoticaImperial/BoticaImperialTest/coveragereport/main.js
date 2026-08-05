@@ -290,20 +290,20 @@ var assemblies = [
   {
     "name": "BoticaImperial",
     "classes": [
-      { "name": "BoticaImperial.Errors.CasoMedicoError", "rp": "BoticaImperial_CasoMedicoError.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "BoticaImperial.Errors.CasoMedicoErrors", "rp": "BoticaImperial_CasoMedicoErrors.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "BoticaImperial.Errors.CasoMedicoError", "rp": "BoticaImperial_CasoMedicoError.html", "cl": 2, "ucl": 1, "cal": 3, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "BoticaImperial.Errors.CasoMedicoErrors", "rp": "BoticaImperial_CasoMedicoErrors.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "BoticaImperial.Errors.Common.DomainError", "rp": "BoticaImperial_DomainError.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 3, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "BoticaImperial.Errors.SustanciaError", "rp": "BoticaImperial_SustanciaError.html", "cl": 2, "ucl": 1, "cal": 3, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "BoticaImperial.Errors.SustanciaErrors", "rp": "BoticaImperial_SustanciaErrors.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "BoticaImperial.Models.Afrodisiaco", "rp": "BoticaImperial_Afrodisiaco.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "BoticaImperial.Models.CasoMedico", "rp": "BoticaImperial_CasoMedico.html", "cl": 0, "ucl": 9, "cal": 9, "tl": 15, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "BoticaImperial.Models.CasoMedico", "rp": "BoticaImperial_CasoMedico.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 15, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "BoticaImperial.Models.Medicina", "rp": "BoticaImperial_Medicina.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "BoticaImperial.Models.Sustancia", "rp": "BoticaImperial_Sustancia.html", "cl": 6, "ucl": 4, "cal": 10, "tl": 16, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "BoticaImperial.Models.Veneno", "rp": "BoticaImperial_Veneno.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 11, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "BoticaImperial.Validator.CasoMedicoValidator", "rp": "BoticaImperial_CasoMedicoValidator.html", "cl": 0, "ucl": 17, "cal": 17, "tl": 66, "cb": 0, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "BoticaImperial.Validator.CasoMedicoValidator", "rp": "BoticaImperial_CasoMedicoValidator.html", "cl": 17, "ucl": 0, "cal": 17, "tl": 66, "cb": 18, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "BoticaImperial.Validator.SustanciaValidator", "rp": "BoticaImperial_SustanciaValidator.html", "cl": 27, "ucl": 0, "cal": 27, "tl": 119, "cb": 59, "tb": 60, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "BoticaImperial.Validator.ValidadorSustancias", "rp": "BoticaImperial_ValidadorSustancias.html", "cl": 51, "ucl": 0, "cal": 51, "tl": 119, "cb": 1, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "BoticaImperial.Validator.ValidatorCasosMedicos", "rp": "BoticaImperial_ValidatorCasosMedicos.html", "cl": 0, "ucl": 21, "cal": 21, "tl": 66, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "BoticaImperial.Validator.ValidatorCasosMedicos", "rp": "BoticaImperial_ValidatorCasosMedicos.html", "cl": 21, "ucl": 0, "cal": 21, "tl": 66, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Program", "rp": "BoticaImperial_Program.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 3, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
@@ -319,16 +319,16 @@ var riskHotspotMetrics = [
 
 var riskHotspots = [
   {
-    "assembly": "BoticaImperial", "class": "BoticaImperial.Validator.CasoMedicoValidator", "reportPath": "BoticaImperial_CasoMedicoValidator.html", "methodName": "Validate(BoticaImperial.Models.CasoMedico)", "methodShortName": "Validate(...)", "fileIndex": 0, "line": 15,
-    "metrics": [
-      { "value": 342, "exceeded": true },
-      { "value": 18, "exceeded": true },
-    ]},
-  {
     "assembly": "BoticaImperial", "class": "BoticaImperial.Validator.SustanciaValidator", "reportPath": "BoticaImperial_SustanciaValidator.html", "methodName": "Validate(BoticaImperial.Models.Sustancia)", "methodShortName": "Validate(...)", "fileIndex": 0, "line": 16,
     "metrics": [
       { "value": 60, "exceeded": true },
       { "value": 60, "exceeded": true },
+    ]},
+  {
+    "assembly": "BoticaImperial", "class": "BoticaImperial.Validator.CasoMedicoValidator", "reportPath": "BoticaImperial_CasoMedicoValidator.html", "methodName": "Validate(BoticaImperial.Models.CasoMedico)", "methodShortName": "Validate(...)", "fileIndex": 0, "line": 15,
+    "metrics": [
+      { "value": 18, "exceeded": false },
+      { "value": 18, "exceeded": true },
     ]},
 ];
 
