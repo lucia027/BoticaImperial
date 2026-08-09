@@ -291,6 +291,7 @@ var assemblies = [
     "name": "BoticaImperial",
     "classes": [
       { "name": "BoticaImperial.Cache.CacheLru\u003CT1, T2\u003E", "rp": "BoticaImperial_CacheLru_2.html", "cl": 59, "ucl": 6, "cal": 65, "tl": 108, "cb": 10, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "BoticaImperial.Config.Configuracion", "rp": "BoticaImperial_Configuracion.html", "cl": 33, "ucl": 19, "cal": 52, "tl": 89, "cb": 9, "tb": 44, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "BoticaImperial.Errors.CasoMedicoError", "rp": "BoticaImperial_CasoMedicoError.html", "cl": 2, "ucl": 1, "cal": 3, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "BoticaImperial.Errors.CasoMedicoErrors", "rp": "BoticaImperial_CasoMedicoErrors.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "BoticaImperial.Errors.Common.DomainError", "rp": "BoticaImperial_DomainError.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 3, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
