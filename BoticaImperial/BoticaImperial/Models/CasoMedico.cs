@@ -12,4 +12,8 @@ public record CasoMedico {
     public HashSet<Veneno>? SustanciasSospechosas { get; set; }
     public HashSet<Medicina>? TratamientosAplicados { get; set; }
     public EstadoCasoMedico Estado { get; set; }
+    public DateTime CreateAt { get; set; }
+    public DateTime UpdateAt { get; set; }
+    public DateTime DeleteAt { get; set; }
+    public bool IsDelete { get; set; }
 }

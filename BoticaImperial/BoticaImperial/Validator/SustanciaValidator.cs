@@ -49,7 +49,7 @@ public class SustanciaValidator : IValidator<Sustancia> {
 }
 
 public static class ValidadorSustancias {
-    public static bool IsValidPrecio(this double precio) {
+    public static bool IsValidPrecio(this decimal precio) {
         return precio > 0;
     }
 

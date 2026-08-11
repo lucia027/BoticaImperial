@@ -13,7 +13,12 @@ public record CasoMedicoDto(
     [property: XmlAttribute("causaSospecha")] string CausaSospecha,
     [property: XmlAttribute("sustanciasSospechosas")] HashSet<SustanciaDto>? SustanciasSospechosas,
     [property: XmlAttribute("tratamientosAplicados")] HashSet<SustanciaDto>? TratamientosAplicados,
-    [property: XmlAttribute("estado")] string Estado
+    [property: XmlAttribute("estado")] string Estado,
+    [property: XmlAttribute("createAt")] string CreateAt,
+    [property: XmlAttribute("updateAt")] string UpdateAt,
+    [property: XmlAttribute("deleteAt")] string DeleteAt,
+    [property: XmlAttribute("isDelete")] bool IsDelete
+    
 ) {
-    public CasoMedicoDto() : this(0, "", "", "", "", "", null, null, "") { }
+    public CasoMedicoDto() : this(0, "", "", "", "", "", null, null, "", "", "", "", false) { }
 }
