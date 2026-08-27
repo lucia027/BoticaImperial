@@ -21,6 +21,7 @@ public static class CasoMedicoMapper {
             CausaSospecha = System.Enum.TryParse(dto.CausaSospecha, out CausaSospecha causaSospecha) ? causaSospecha : CausaSospecha.Desconocida,
             SustanciasSospechosas = dto.SustanciasSospechosas?.ToModel() as HashSet<Veneno>,
             TratamientosAplicados = dto.TratamientosAplicados?.ToModel() as HashSet<Medicina>,
+            Estado = System.Enum.TryParse(dto.Estado, out EstadoCasoMedico estado) ? estado : EstadoCasoMedico.EnInvestigacion,
             CreateAt = DateTime.TryParse(dto.CreateAt, InvariantCulture, out var create) ? create : DateTime.Now,
             UpdateAt = DateTime.TryParse(dto.UpdateAt, InvariantCulture, out var update) ? update : DateTime.Now,
             DeleteAt = DateTime.TryParse(dto.DeleteAt, InvariantCulture, out var delete) ? delete : DateTime.Now,
